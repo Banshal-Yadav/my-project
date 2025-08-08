@@ -1,3 +1,26 @@
-*{
-    background-color:grey;
+body{
+    text-align:center;
+    background-color:#FFDF00;
+}
+h1{
+    color:white;
+    font-size:60px;
+}
+.card{
+    height:250px;
+    width:200px;
+    border:2px solid black;
+    border-radius:10px;
+    margin:1.5rem;
+}
+.card-container{
+    display:flex;
+    justify-content:center;
+    
+}
+#btm{
+    height:50px;
+    width:200px;
+    border:1px solid black;
+
 }
