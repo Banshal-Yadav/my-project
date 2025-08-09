@@ -12,6 +12,27 @@ h1{
     font-size:60px;
 }
 
+/* nav style */
+
+.nav-btn {
+    display: inline-block;
+    border-radius: 1.5rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-btn p {
+    font-size: large;
+    font-weight: 500;
+    margin: 0;
+    transition: 0.4s;
+}
+.nav-btn p:hover{
+    /* padding: 1rem 1.2rem 1rem 1.2rem; */
+
+}
+
 /* card-container style */
 .card-container{
     display:flex;
