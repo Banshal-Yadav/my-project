@@ -27,7 +27,6 @@ h1{
 }
 .nav-btn p:hover{
     /* padding: 1rem 1.2rem 1rem 1.2rem; */
-
 }
 
 /* card-container style */
@@ -37,7 +36,7 @@ h1{
 }
 
 .card{
-    height:250px;
+    height:300px;
     width:200px;
     border: 4px solid #26282A;
     border-radius: 15px;
@@ -78,7 +77,7 @@ h1{
 }
 
 #card-img {
-    height: 72%;
+    height: 71%;
     width: 100%;
     position: relative;
     display: block; /* img is inline element which has whitespace to remove it we use display:block*/
@@ -114,10 +113,27 @@ h1{
 }
 
 .product-grp{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 40%;
+    min-width: 20rem;
     border-radius: 1rem;
-    border: 1px solid black;
+    border: 4px solid #26282A;
+    background-color: #26282A;
+    padding: 0.5rem;
+    display:flex;
+    justify-content:center;
    
 }
-
+.product-grp span {
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+}
+#product-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block; /* img is inline element which has whitespace to remove it we use display:block*/
+    border-radius: 1rem;
+    z-index: 1;
+}
